@@ -5,7 +5,7 @@ import http from 'http';
 
 debug('mock-auth-user:server');
 
-const port = normalizePort(process.env.PORT || process.argv[2] || '3000');
+const port = normalizePort(process.env.PORT || process.argv[2] || '8000');
 
 app.set('port', port);
 

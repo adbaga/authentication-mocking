@@ -11,7 +11,8 @@
     "start": "scripts/start.sh",
     "lint": "scripts/lint.sh",
     "test": "scripts/test.sh",
-    "coverage": "nyc --reporter=lcov npm test"
+    "coverage": "nyc --reporter=lcov npm test",
+    "dev": "nodemon ./node_modules/mock-user-auth/bin/www.js"
   },
   "dependencies": {
     "@babel/polyfill": "7.4.4",
